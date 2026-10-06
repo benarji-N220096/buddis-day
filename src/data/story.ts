@@ -249,7 +249,7 @@ export const storyData: StoryData = {
     reaction: "“entra evarra akkaa annaav?”",
     reactionSub: "that instant shock & immediate comeback 😂",
     punchlineIntro: "ippudu chudu...",
-    punchline: "ee gundu gaadike ippatiki 2 times rakhi kaataav...",
+    punchline: "ee gundu gaadike ippatiki 2 times rakhi kattaav...",
     punchlineHighlight: "gundu gaadu",
     aftermath: "antey taruvatha alaa annanduku sorry cheppav le... adhi verey vishayam 😂",
   },
@@ -380,7 +380,7 @@ export const storyData: StoryData = {
       photo1: {
         captionLead: "appudeppudo akka ani pilistey…",
         captionReaction: "“entra evarra akkaa annaav?”",
-        captionPunchline: "ippudu chudu… ee gundu gaadike ippatiki 2 times rakhi kaataav… 😂",
+        captionPunchline: "ippudu chudu… ee gundu gaadike ippatiki 2 times rakhi kattaav… 😂",
         captionFollowup: "antey taruvatha alaa annanduku sorry cheppav le… adhi verey vishayam.",
       },
       photo2: {

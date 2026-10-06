@@ -3,7 +3,6 @@ import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { storyData } from '../../data/story';
 import { useReducedMotion } from '../../hooks/useReducedMotion';
-import { MemoryImage } from '../../components/UI/MemoryImage';
 import { MessageSquareQuote, ShieldAlert } from 'lucide-react';
 
 gsap.registerPlugin(ScrollTrigger);
@@ -157,11 +156,11 @@ export const FunnyMemorySection: React.FC = () => {
         {/* The Punchline & Contrast */}
         <div
           ref={punchlineRef}
-          className="grid grid-cols-1 md:grid-cols-12 gap-8 items-center max-w-3xl mx-auto"
+          className="max-w-xl mx-auto space-y-6 text-center"
         >
           {/* Typographic Story Column */}
-          <div className="md:col-span-7 space-y-6 text-left">
-            <div className="flex items-center gap-2 text-xs font-mono tracking-[0.2em] uppercase text-[#77736C]">
+          <div className="space-y-6">
+            <div className="flex items-center justify-center gap-2 text-xs font-mono tracking-[0.2em] uppercase text-[#77736C]">
               <ShieldAlert className="w-3.5 h-3.5 text-[#B45340]" />
               <span>{punchlineIntro}</span>
             </div>
@@ -172,19 +171,9 @@ export const FunnyMemorySection: React.FC = () => {
                 <span className="font-semibold text-[#B45340] underline decoration-[#B45340]/40 decoration-2 underline-offset-4">
                   gundu gaadike
                 </span>{' '}
-                ippatiki 2 times rakhi kaataav...
+                ippatiki 2 times rakhi kattaav...
               </p>
             </div>
-          </div>
-
-          {/* Reserved Memory Image slot component */}
-          <div className="md:col-span-5 flex justify-center">
-            <MemoryImage
-              dateTag="RAKHI RECORD"
-              semesterTag="ARCHIVE"
-              caption="Reserved for the rakhi photo"
-              aspectRatio="portrait"
-            />
           </div>
         </div>
 
